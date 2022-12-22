@@ -71,7 +71,7 @@ export default function MyAssets() {
                 </div>
                 <div className="p-4 bg-gray-700">
                   <p className="text-2xl font-bold text-white">Cena zakupu: {nft.price} ETH</p>
-                  <button className="mt-4 w-full bg-blue-400 text-yellow-50 font-bold py-2 px-12 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-400 duration-300" onClick={() => listNft(nft)}>Wystaw na sprzedaż</button>
+                  <button className="mt-4 w-full bg-blue-400 text-yellow-50 font-bold py-2 px-12 rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-400 duration-300" onClick={() => listNFT(nft)}>Wystaw na sprzedaż</button>
                 </div>
               </div>
             ))
